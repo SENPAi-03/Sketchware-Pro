@@ -120,10 +120,10 @@ public class LogReaderActivity extends AppCompatActivity {
                     });
                     builder.setNegativeButton("Cancel", (dialog, which) -> dialog.dismiss());
                     builder.setNeutralButton("Reset", (dialog, which) -> {
-						pkgFilter = "";
-						pkgFilterList.clear();
-						filterEdittext.setText("");
-					});
+                        pkgFilter = "";
+                        pkgFilterList.clear();
+                        filterEdittext.setText("");
+                    });
                     builder.show();
                     break;
 
